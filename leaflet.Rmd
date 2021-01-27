@@ -1,0 +1,10 @@
+---
+title: "January 27, 2021"
+output: html_document
+---
+
+```{r, echo = FALSE}
+library(leaflet)
+mymap <- leaflet() %>% addTiles() %>% addMarkers(lat = 14.648282, lng = 121.049850, popup = "University of the Philippines Diliman")
+mymap
+```
